@@ -25,6 +25,11 @@
 		CC5CD1302868BAC500702B6D /* IntializeAndInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5CD12F2868BAC500702B6D /* IntializeAndInit.swift */; };
 		CC5CD1322868C22800702B6D /* ForEachLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5CD1312868C22800702B6D /* ForEachLoop.swift */; };
 		CC5CD1342868C2E400702B6D /* ScrollViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5CD1332868C2E400702B6D /* ScrollViewUI.swift */; };
+		CC8DCB23286CACE9007C1C50 /* AnimationCurvesTimming.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DCB22286CACE9007C1C50 /* AnimationCurvesTimming.swift */; };
+		CC8DCB25286CB0E9007C1C50 /* TransitionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DCB24286CB0E9007C1C50 /* TransitionUI.swift */; };
+		CC8DCB27286CB445007C1C50 /* SheetUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DCB26286CB445007C1C50 /* SheetUI.swift */; };
+		CC8DCB29286CB72E007C1C50 /* SheetTransitionOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DCB28286CB72E007C1C50 /* SheetTransitionOffset.swift */; };
+		CC8DCB2B286CBAE2007C1C50 /* NavigationViewAndLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DCB2A286CBAE2007C1C50 /* NavigationViewAndLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +52,11 @@
 		CC5CD12F2868BAC500702B6D /* IntializeAndInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntializeAndInit.swift; sourceTree = "<group>"; };
 		CC5CD1312868C22800702B6D /* ForEachLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoop.swift; sourceTree = "<group>"; };
 		CC5CD1332868C2E400702B6D /* ScrollViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewUI.swift; sourceTree = "<group>"; };
+		CC8DCB22286CACE9007C1C50 /* AnimationCurvesTimming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCurvesTimming.swift; sourceTree = "<group>"; };
+		CC8DCB24286CB0E9007C1C50 /* TransitionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionUI.swift; sourceTree = "<group>"; };
+		CC8DCB26286CB445007C1C50 /* SheetUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetUI.swift; sourceTree = "<group>"; };
+		CC8DCB28286CB72E007C1C50 /* SheetTransitionOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetTransitionOffset.swift; sourceTree = "<group>"; };
+		CC8DCB2A286CBAE2007C1C50 /* NavigationViewAndLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewAndLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +123,11 @@
 				CC5CD12F2868BAC500702B6D /* IntializeAndInit.swift */,
 				CC5CD1312868C22800702B6D /* ForEachLoop.swift */,
 				CC5CD1332868C2E400702B6D /* ScrollViewUI.swift */,
+				CC8DCB22286CACE9007C1C50 /* AnimationCurvesTimming.swift */,
+				CC8DCB24286CB0E9007C1C50 /* TransitionUI.swift */,
+				CC8DCB26286CB445007C1C50 /* SheetUI.swift */,
+				CC8DCB28286CB72E007C1C50 /* SheetTransitionOffset.swift */,
+				CC8DCB2A286CBAE2007C1C50 /* NavigationViewAndLink.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -193,13 +208,18 @@
 				CC5CD124286857D100702B6D /* ImageUI.swift in Sources */,
 				CC5CD12A2868A32B00702B6D /* StackUI.swift in Sources */,
 				CC5CD1342868C2E400702B6D /* ScrollViewUI.swift in Sources */,
+				CC8DCB25286CB0E9007C1C50 /* TransitionUI.swift in Sources */,
 				CC5CD1322868C22800702B6D /* ForEachLoop.swift in Sources */,
+				CC8DCB23286CACE9007C1C50 /* AnimationCurvesTimming.swift in Sources */,
 				CC5CD12E2868B07900702B6D /* SpacerUI.swift in Sources */,
 				CC5CD1222868544000702B6D /* SystemImageUI.swift in Sources */,
 				CC5CD10D2868190200702B6D /* ContentView.swift in Sources */,
 				CC5CD11C28681B3100702B6D /* ShapesUI.swift in Sources */,
+				CC8DCB29286CB72E007C1C50 /* SheetTransitionOffset.swift in Sources */,
 				CC5CD1302868BAC500702B6D /* IntializeAndInit.swift in Sources */,
+				CC8DCB2B286CBAE2007C1C50 /* NavigationViewAndLink.swift in Sources */,
 				CC5CD11E286822E100702B6D /* ColorUI.swift in Sources */,
+				CC8DCB27286CB445007C1C50 /* SheetUI.swift in Sources */,
 				CC5CD10B2868190200702B6D /* BassicSwiftuiApp.swift in Sources */,
 				CC5CD12C2868A76200702B6D /* PaddingAndSpaceUI.swift in Sources */,
 				CC5CD12028684D1000702B6D /* LinearGradialUI.swift in Sources */,
