@@ -11,7 +11,11 @@ import SwiftUI
 struct BassicSwiftuiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+//            AppStorageUI()
+//            TextSelectionUI()
+//            FocusStateUI()
+            CustomizeKeyboadSubmit()
         }
     }
 }
